@@ -5,8 +5,9 @@ const { v4: uuidv4 } = require("uuid");
 
 const { httpError, sendEmail } = require("../../helpers");
 
-const { APP_URL = "http://localhost:4000" } = process.env;
+//const { APP_URL = "http://localhost:4000" } = process.env;
 
+const { APP_URL = "https://outfitteamproj-backend.onrender.com" } = process.env;
 
 const register = async (req, res, next) => {
   const { name, email, password } = req.body;
