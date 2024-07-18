@@ -1,1 +1,2 @@
-# outfitTeamProj-Backend
+# Slim-Mom-Backend
+Slim-Mom-Backend
